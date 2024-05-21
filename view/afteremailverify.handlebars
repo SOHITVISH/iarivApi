@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="images/dollar.png" type="image/png" sizes="16x16">
+    <title>Email verified</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+<style>
+    .container {
+        max-width: 380px;
+        margin: 50px auto;
+        overflow: hidden;
+
+    }
+
+    .paper-container {
+        position: relative;
+        overflow: hidden;
+        height: 467px;
+    }
+
+    .paper {
+        background: #ffffff;
+        font-family: 'Poppins', sans-serif;
+        height: 447px;
+        position: absolute;
+        z-index: 2;
+        margin: 0 12px;
+        margin-top: -12px;
+
+    }
+
+    .main-contents {
+        margin: 0 12px;
+        padding: 24px;
+    }
+
+
+
+    .success-icon {
+        text-align: center;
+        font-size: 48px;
+        height: 72px;
+        background: #36aa08fd;
+        border-radius: 50%;
+        width: 72px;
+        height: 72px;
+        margin: 16px auto;
+        color: #fff;
+    }
+
+    .success-title {
+        font-size: 22px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        color: #666;
+        font-weight: bold;
+        margin-bottom: 16px;
+    }
+
+    .success-description {
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+        line-height: 21px;
+        color: #999;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    .order-details {
+        text-align: center;
+        color: #333;
+        font-weight: bold;
+
+    }
+
+    .order-number-label {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+
+    .order-number {
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        line-height: 48px;
+        font-size: 48px;
+        padding: 8px 0;
+        margin-bottom: 24px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="printer-top"></div>
+
+        <div class="paper-container">
+            <div class="printer-bottom"></div>
+
+            <div class="paper">
+                <div class="main-contents">
+                    <div class="success-icon">&#10003;</div>
+                    <div class="success-title">
+                        Email Verified! 🍕 🎉
+                    </div>
+                    <div class="success-description">
+                        Your email has been verified go and sigin now!</div>
+                    <div class="order-details">
+                        <a href={{url}}>Sign In</a>
+                    </div>
+                </div>
+                <div class="jagged-edge"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
